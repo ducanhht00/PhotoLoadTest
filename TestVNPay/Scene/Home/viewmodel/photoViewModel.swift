@@ -102,7 +102,7 @@ class PhotoViewModel: ViewModelProtocol {
         if text.isEmpty {
             filterPhotos.value = photos
         } else {
-            filterPhotos.value = photos.filter { $0.author.lowercased().contains(text.lowercased()) }
+            filterPhotos.value = photos.filter { $0.author.lowercased().contains(text.lowercased()) || $0.id.lowercased().contains(text.lowercased()) }
         }
     }
 }
