@@ -6,6 +6,9 @@ Chức năng:
 -	Pull Refresh(Pull list để thực hiện refresh nội dung)
 -	Paging(mỗi page có 100 photo), có indicator 'loading...'
 -	Cho phép tìm kiếm theo author hoặc id.
+# Chức năng Paging/ load more
+- Ấn mũi tên chuyển trang
+- Vuốt ảnh xuống cuối để load more đến khi đủ 100 ảnh của page
 # Mô tả chức năng Tìm kiếm
 -	Độ dài nội dung tìm kiếm không vượt qá 15 kí tự.
 -	Nội dung tìm kiếm không được nhập kí tự có dấu. Không cho phép nhập kí tự đặc biệt & emoji ngoại trừ !@#$%^&*():.,<>/\[]?.
