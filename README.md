@@ -18,7 +18,7 @@ Chức năng:
 # Design Pattern
 - Singleton: NetworkMonitor, ImageLoader
 - Observer Pattern: NetworkMonitor
-# Chức năng không rõ yêu cầu:
+# Chức năng không thực hiện:
 - Cho phép tìm kiếm bằng swipe typing
 -> Từ IOS 13: Đây là chức năng được setting trong Setting của máy là sẽ được hỗ trợ chứ không can thiệp được bằng code trừ khi custom bàn phím.
   Dự án hỗ trợ từ IOS 12 nên IOS 12 sẽ không sử dụng được chức năng này.
